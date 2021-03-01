@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    border: 0.001rem solid rgba(255, 255, 255, 0.336);
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+}
+
+.container.menu img {
+    width: 16%;
+    padding: 0.5rem 0.3rem;   
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+#headerimg img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin-left: 60%;
+    margin-top: 0%;
+}
+
+#toplist ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#primarytext {
+    color: white;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 2%;
+}
+
+#title h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 36px;
+    order: 0;
+}
+
+#top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+#description,
+#description2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+}
+
+h2 {
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#toplist a {
+    padding: 1.2rem 2rem 1.2rem 2rem;
+}
+
+#toplist a:hover {
+    background: white;
+    transition-duration: 1s;
+    color: black;
+    padding: 1rem, 2rem;
+}
+
+.wave img {
+    height: 300px;
+    margin-top: -10rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 5%;
+}
+
+
+.card img {
+    background: #f3f3f3;
+    padding: 1rem;
+    border-radius: 10px 10px 0 0;
+    border-bottom-width: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 230px;
+    height: 70px;
+    padding: 1rem;
+}
+
+.grid a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #121212;
+    color: white;
+    width: 260px;
+    padding: 0 1rem;
+    border: 0.001rem solid rgba(255, 255, 255, 0.336);
+    padding: 0.2rem 0;
+    text-align: center;
+}
+
+.grid a:hover {
+    background: #ffffff;
+    color: #121212;
+    transition-duration: 0.5s;
+}
+
+header {
+    background: #121212;
+}
+
+body {
+    background: #121212;
+}
+
+@media only screen and (max-width: 768px) {
+    #headerimg img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5%;
+      width: 60%;
+    }
+
+    #primarytext h1 {
+        font-size: 20px;
+    }
+
+    #description,
+    #description2 {
+        font-size: 15px;
+    }
+
+    #payments h2 {
+        font-size: 24px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+
